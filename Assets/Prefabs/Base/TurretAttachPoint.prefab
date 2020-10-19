@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1026331848536903864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026331848536903871}
+  - component: {fileID: 4240385147596768489}
+  m_Layer: 0
+  m_Name: TurretAttachPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1026331848536903871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026331848536903864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4240385147596768489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026331848536903864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b346e44eedbae341b975c60c57fe4c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachedTurret: {fileID: 0}
+  turretPrefab: {fileID: 949624523135948438, guid: 90c82f3602c41664186d36d96d6b0802, type: 3}
+  addButtonPrefab: {fileID: 7200702782798778444, guid: 7087f989c0bf9c24487394144cdad236, type: 3}
+  upgradeButtonPrefab: {fileID: 1063306119237761087, guid: 3fe3639d7fbe2c9459a8eebe6f766d01, type: 3}
+  upgradeButtonOffset: {x: 2, y: 2, z: -2}
+  addButtonOffset: {x: 0, y: 2, z: -2}
+  connectedStation: {fileID: 0}

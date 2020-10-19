@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!162 &1
+EditorUserSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_ConfigSettings:
+    vcPerforcePassword:
+      value: 305846030b0759095c
+      flags: 1
+    vcPerforceServer:
+      value: 52011a54551b58155b545d744675
+      flags: 0
+    vcPerforceUsername:
+      value: 0558580f151b1a520a1c0d2c14
+      flags: 0
+    vcPerforceWorkspace:
+      value: 2558580f15620649061d1c23132660372646270c187a76627d
+      flags: 0
+    vcSharedLogLevel:
+      value: 0d5e400f0650
+      flags: 0
+  m_VCAutomaticAdd: 1
+  m_VCDebugCom: 0
+  m_VCDebugCmd: 0
+  m_VCDebugOut: 0
+  m_SemanticMergeMode: 2
+  m_VCShowFailedCheckout: 1
+  m_VCOverwriteFailedCheckoutAssets: 1
+  m_VCOverlayIcons: 1
+  m_VCAllowAsyncUpdate: 0

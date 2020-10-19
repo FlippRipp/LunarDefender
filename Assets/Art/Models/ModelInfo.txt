@@ -1,0 +1,2 @@
+## Info ##
+Here 3D model files should be (.fbx, .obj etc)

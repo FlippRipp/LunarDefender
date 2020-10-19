@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8928179493609320323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8928179493609320321}
+  - component: {fileID: 8928179493609320320}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8928179493609320321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8928179493609320323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.853441, y: 197.85568, z: -26.032608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8928179493609320320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8928179493609320323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1073a8c668ba71246bd45b0479a91fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultVolume: 1
+  audioPrefab: {fileID: 7623392678869869710, guid: 8e12e27281b948f4fb93989420c261db, type: 3}
+  soundInspectorList:
+  - audioName: Music
+    audioFile: {fileID: 8300000, guid: 0fa964607cd596d4cb3fad791056b7d6, type: 3}
+  - audioName: Thrust
+    audioFile: {fileID: 8300000, guid: 43d70ffdb7f115b468fc4f4d744dcc7a, type: 3}
+  - audioName: Fire
+    audioFile: {fileID: 8300000, guid: 715fc13acf8f4da44b5e19eb106eaa9f, type: 3}
+  - audioName: EnemyFire
+    audioFile: {fileID: 8300000, guid: d1b346ffdcebef4479bb9c4a5d988ab0, type: 3}
+  - audioName: CrashExplosion
+    audioFile: {fileID: 8300000, guid: ebc3b9b4cddf49c43883fe53f6792c34, type: 3}
+  - audioName: Flux
+    audioFile: {fileID: 8300000, guid: a91f0f98f12eb11429db2919f579db00, type: 3}
+  - audioName: Boost
+    audioFile: {fileID: 8300000, guid: 30db0e5ff64593b418bfef1a4267791a, type: 3}
+  - audioName: Mining
+    audioFile: {fileID: 8300000, guid: 3ec27692bf2037f4db50e0222e103c55, type: 3}
+  - audioName: ResourceCollected
+    audioFile: {fileID: 8300000, guid: 57b63242306fbef4cacf3537b1dea77a, type: 3}
+  - audioName: Heal
+    audioFile: {fileID: 8300000, guid: 884b078261980d5469b61b5e53eabead, type: 3}
+  - audioName: Purchase
+    audioFile: {fileID: 8300000, guid: a3c4387695e97da469851f56cddfc03c, type: 3}
+  - audioName: BombExplosion
+    audioFile: {fileID: 8300000, guid: 081f053ff2764be499fb99369d644211, type: 3}
